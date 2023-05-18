@@ -2,7 +2,7 @@ version: '3'
 services:
 
   ffmpeg_nvidia:
-    image: local/ffmpeg-nvidia:testing
+    image: local/ffmpeg-nvidia:latest
     deploy:
       resources:
         reservations:
